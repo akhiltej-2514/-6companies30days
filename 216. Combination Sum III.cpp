@@ -6,7 +6,6 @@ class Solution {
            ans.push_back(tp);
            return;
        }
-
        if(id>9)return;
         tp.push_back(id);
        f(id+1,ans,tp,n-id,k);
